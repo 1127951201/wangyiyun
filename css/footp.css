@@ -1,0 +1,94 @@
+body {
+	font-size: 12px;
+	margin: 0;
+}
+
+.foot {
+	position: relative;
+	height: 186px;
+	overflow: hidden;
+	border-top: 1px solid #d3d3d3;
+	background: #f2f2f2;
+}
+
+.foot-m {
+	width: 980px;
+	margin: 0 auto;
+	height: 150px;
+}
+
+.foot-g {
+	float: left;
+	width: 520px;
+	line-height: 24px;
+}
+
+.foot-m .foot-g {
+	float: left;
+	width: 520px;
+	padding-top: -30px;
+	/*line-height: 12px;*/
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+.s-fc4,
+a.s-fc4:hover {
+	color: #999;
+}
+
+.foot-h {
+	height: 115px;
+	padding-top: -20px;
+}
+
+.s-fc3,
+a.s-fc3:hover {
+	color: #666;
+}
+
+.foot-g .foot-g-line {
+	margin: 0 8px 0 10px;
+	color: #c2c2c2;
+}
+
+.sep {
+	margin-right: 14px;
+}
+
+.foot-g .police-logo {
+	width: 14px;
+	height: 14px;
+	background: url(../../style/web2/img/3rd/police.png?a92c815…) no-repeat;
+	background-size: cover;
+	display: inline-block;
+	margin-right: 2px;
+	vertical-align: -2px;
+}
+
+.foot a:hover {
+	text-decoration: underline;
+}
+
+ul li {
+	list-style: none;
+}
+
+.foot-m .foot-li {
+	float: left;
+}
+
+.foot-h .foot-ul {
+	width: 420px;
+	float: right;
+	margin-top: 38px;
+}
+.foot-h .foot-ul li{
+	width: 80px;
+}
+.foot-g p{
+	margin-top: 12px;
+}

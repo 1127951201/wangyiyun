@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.z-herder{
+    width: 100%;
+    height: 105px;
+    background-color: lavender;
+    
+}
+.z-herder-1{
+    height: 70px;
+    width: 100%;
+    background-color:#242424; 
+}
+.z-herder-1-1{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 1200px;
+	margin:0 auto;
+}
+.z-herder-1-1 img{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+.z-herder-1-logo{
+    width: 176px;
+    height: 69px;
+    margin-left: 10px;
+    text-align: center;
+    background-position: 0 0;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    display: flex;
+    align-items: center;
+}
+.z-herder-1-logo a{
+    text-decoration: none;
+    color: white;
+}
+.z-herder-1-right li{
+    color: white;
+    list-style-type: none;
+    float: left;
+}
+.z-herder-1-right-first{
+    text-align: center;
+    line-height: 70px;
+    height: 70px;
+    width: 94px;
+    background-color: black;
+}
+.z-herder-1-right span a{
+    text-decoration: none;
+    color: white;
+}
+.z-herder-1-right-first-1,
+.z-herder-1-right-first-2,
+.z-herder-1-right-first-3,
+.z-herder-1-right-first-4,
+.z-herder-1-right-first-5{
+    text-align: center;
+    line-height: 70px;
+    height: 70px;
+    width: 70px;
+}
+.z-herder-1-right-first-1:hover,
+.z-herder-1-right-first-2:hover,
+.z-herder-1-right-first-3:hover,
+.z-herder-1-right-first-4:hover,
+.z-herder-1-right-first-5:hover{
+    background-color: black;
+}
+.z-herder-1-right-first-5 img{
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    margin-top: 10px;
+}
+.ipt{
+    margin-left: 100px;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 3px;
+    background-image: url(../img/sousuo.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x:2px;
+    background-size: 20px 20px;
+    padding-left: 30px;
+}
+.btn{
+    width: 90px;
+    margin-left:30px;
+    height: 32px;
+    border-radius: 20px;
+    padding: 3px;
+    outline: none;
+    border: 0.5px solid gainsboro;
+    background-color: #242424;
+    color: white;
+
+}
+.btn:hover{
+    color: red;
+    border: red 1px solid;
+}
+.denglu{
+    text-decoration: none;
+    margin-left: 30px;
+    color: grey;
+    font-size: 12px;
+}
+.z-herder-2{
+    height: 35px;
+    width: 100%;
+    background-color: #c20c0c;
+    line-height: 35px;
+}
+.z-herder-2-1{
+    height: 35px;
+    width: 980px;
+	margin-left:115px;
+}
+.z-herder-2-1-ul{
+    padding-left: 294px;
+    font-size: 12px;
+}
+.z-herder-2-1-ul li{
+    float: left;
+    list-style-type: none;
+    margin-left:30px;
+}
+.z-herder-2-1-ul li a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid #c20c0c;
+    border-radius: 20px;
+    width: 30px;
+    padding: 3px 10px;
+}
+.z-tj{
+    background: #9B0909;
+    border: 1px solid #c20c0c;
+}
+.z-tj::before{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid red;
+    margin-left: 14px;
+    margin-top: -7px;
+}
+.z-herder-2-1-ul li a:hover{
+    background-color:  #9B0909;
+}
+/*轮播*/
+.lunbo{
+	height: 285px;
+	width: 100%;
+	background: aqua;
+}
+/*更多*/
+.nav{
+	width: 100%;
+	height: 1425px;
+	background: #DCDCDC;
+	background-color: #F4F4F4;
+}
+.contant{
+	width: 980px;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #fff;
+}
