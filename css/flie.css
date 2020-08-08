@@ -1,0 +1,76 @@
+ 
+.maxbig{
+	width: 1262px;
+	height: 285px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*text-align: center;*/
+	/*margin-left: 139px;*/
+	margin: 0 auto;
+	 
+}
+.big{
+	float: left;
+	display: inline-block;
+	width: 730px;
+	height: 285px;
+	overflow: hidden;
+}
+ .one{
+ 	display: inline-block;
+ 	float: left;
+ 	transition: transparent 1s;
+ 	width: 5880px;
+ 	animation: name 8s;
+    animation-iteration-count: infinite;
+ }
+ @keyframes name{
+				16.66%{
+					/* margin-left: -1226px; */
+					transform: translate(-730px,0);
+				}
+				33.32%{					
+					/* margin-left: -2452px; */
+					transform: translate(-1460px,0);
+				}
+				49.98%{
+					/* margin-left: -3678px; */
+					transform: translate(-2190px,0);
+				}
+				66.64%{
+					/* margin-left: -3678px; */
+					transform: translate(-2920px,0);
+				}
+				83.33%{
+					/* margin-left: -3678px; */
+					transform: translate(-3650px,0);
+				}
+				
+				
+				
+			}
+ .one img{
+ 	width: 730px;
+ 	height: 285px;
+ 	float: left;
+ }
+ .1:hover .morebig{
+ 	background-color: red;
+ } 
+.two {
+	/*float: left;*/
+	position: relative;
+	width: 254px;
+	height: 285px;
+	background:url(../images/download.png);
+	background-position: 0px 0px;
+}
+.two p{
+	font-size: 12px;
+	position: absolute;
+	top: 253px;
+	color: #8d8d8d;
+	margin-left: 10px;
+     
+}
