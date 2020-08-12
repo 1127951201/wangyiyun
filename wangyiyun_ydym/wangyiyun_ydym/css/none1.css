@@ -5,6 +5,9 @@
     url('iconfont.ttf') format('truetype'),
     url('iconfont.svg#iconfont') format('svg');
 }
+/* html{
+	font-size: 100px;
+} */
 .iconfont{
     font-family:"iconfont" !important;
     font-size:.4rem;font-style:normal;
