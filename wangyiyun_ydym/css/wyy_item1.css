@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+a{
+	text-decoration: none;
+}
 .wyy{
 	display: flex;
 	justify-content: center;
@@ -494,6 +497,7 @@
 	align-items: center;
 	width: .5rem;
 	border-radius: .4rem;
+	text-decoration: none;
 	margin: .1rem 0 0 .95rem;
 	color: #797979;
 }
@@ -514,6 +518,7 @@
 	width: .5rem;
 	font-size: .2rem;
 	margin-left: .95rem;
+	color: #797979;
 	/* color: red; */
 	/* background-color: green; */
 }

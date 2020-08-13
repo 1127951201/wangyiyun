@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+a{
+	text-decoration: none;
+}
 .wyy2_background{
 	display: flex;
 	align-items: center;
@@ -76,6 +79,7 @@
 	justify-content: center;
 	align-items: center;
 	width: .5rem;
+	color: #797979;
 	font-size: .2rem;
 	margin-left: .95rem;
 }
