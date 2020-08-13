@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width"/>
+		<link rel="stylesheet" type="text/css" href="css/wyy_item1_top1.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/none1_top1.css"/>
+	</head>
+	<body>
+		<div class="box">
+			<div class="box_top">
+				<div class="box_top_left">
+					<div class="box_top_left1">
+						<a href="wangyiyun_item1.html">
+						<div class="iconfont">&#xe51a;</div>
+						</a>
+					</div>
+				</div>
+				<div class="box_top_center">
+					<div class="box_top_center_wz">
+						<h3>听歌识曲</h3>
+					</div>
+				</div>
+				<div class="box_top_right">
+					<div class="iconfont">&#xe679;&#xe51a;</div>
+				</div>
+			</div>
+			<div class="box_center">
+				<div class="box_center_left">
+					<div class="box_center_left_wz">
+						<h3>听歌识曲</h3>
+					</div>
+				</div>
+				<div class="box_center_right">
+					<div class="box_center_right_wz">
+						<h3>听歌识曲</h3>
+					</div>
+				</div>
+			</div>
+			<div class="box_center2">
+				<div class="box_center2_box">
+					<div class="box_center2_long">
+						<div class="box_center2_long_part1">
+							<div class="box_center2_long_tu">
+								<div class="box_center2_long_tu_div">
+									<div class="iconfont">&#xe61b;</div>
+								</div>
+							</div>
+							<div class="box_center2_long_wz">
+								<h3>点击识别音乐</h3>
+								<h5>旋律识别，识别你周围播放的歌</h5>
+							</div>
+						</div>
+						<div class="box_center2_long_part2">
+							<div class="box_center2_long_tu">
+								<div class="box_center2_long_tu_div">
+									<div class="iconfont">&#xe607;</div>
+								</div>
+							</div>
+							<div class="box_center2_long_wz">
+								<h3>点击识别音乐</h3>
+								<h5>旋律识别，识别哼唱的歌</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="box_buttom"></div>
+		</div>
+		<script>
+			(function () {
+				function resizeBaseFontSize() {
+					var rootHtml = document.documentElement,
+						deviceWidth = rootHtml.clientWidth;
+					if (deviceWidth > 720) {
+						deviceWidth = 720;
+					}
+					rootHtml.style.fontSize = deviceWidth /7.2 + "px";
+				}
+				resizeBaseFontSize();
+				window.addEventListener("resize", resizeBaseFontSize, false);
+				window.addEventListener("orientationchange", resizeBaseFontSize, false);
+			})();
+		</script>
+	</body>
+</html>
