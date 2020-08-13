@@ -10,14 +10,11 @@ a{
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	/* background-color: aquamarine; */
 }
 .wyy_top1{
 	display: flex;
 	justify-content: space-around;
 	margin-top: .1rem;
-	/* background-color: blue; */
-	/* background-color: #f2f2f2; */
 }
 .wyy_top1_1{
 	display: flex;
@@ -30,7 +27,6 @@ a{
 	display: block;
 	flex-wrap: 1;
 	width: 5.2rem;
-	/* background-color: aqua; */
 }
 .wyy_top1_2_div{
 	display: flex;
@@ -42,6 +38,7 @@ a{
 	background-color: #f2f2f2;
 }
 .wyy_top1_1 a:first-child{
+	color: #000000;
 	display: block;
 	height: .5rem;
 }
@@ -49,10 +46,9 @@ a{
 	display: block;
 	height: .4rem;
 }
-.wyy_top1_2_div span{
+.wyy_top1_2_div span:first-child{
 	display: block;
 	color: #767676;
-	/* height: 0.2rem; */
 }
 .wyy_top1_2_wz{
 	display: block;
@@ -71,7 +67,7 @@ a{
 	height: .5rem;
 	background-color: red;
 	border-radius: .5rem;
-	background-image: url(../img/歌单图标3.jpg);
+	background-image: url(../img/音乐背景0.JPG);
 	background-size: 100%;
 	transition: linear;
 	animation: romate 150s infinite;
