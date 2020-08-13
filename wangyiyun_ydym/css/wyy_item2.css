@@ -1,0 +1,298 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	width: 100%;
+	height: 1rem;
+	
+	display: flex;
+}
+.header_vedio{
+	width:10%;
+	height: 1rem;
+	background-color: white;
+	display: flex;
+	}
+	.header_vedio i{
+		font-size: 0.7rem;
+		margin:auto;
+	}
+.header_search{
+	width: 80%;
+	height: 1rem;
+	background-color: white;
+}
+.header_search_nav{
+	width: 90%;
+	height: 0.8rem;
+	background-color:whitesmoke;
+	margin: 0.1rem auto;
+	border-radius: 0.4rem;
+	display: flex;
+	
+}
+.header_search_nav i{
+	font-size: 0.4rem;
+	color: darkgray;
+	
+	
+}
+.header_search_nav p{
+	font-size: 0.4rem;
+	color: darkgray;
+	margin: 0.1rem auto;
+}
+
+.header_music{
+	width: 10%;
+	height: 1rem;
+	
+}
+.header_music_pic{
+	width: 0.6rem;
+	height: 0.6rem;
+	margin: 0.2rem auto;
+	border-radius: 50%;
+	background: url(../img/歌单22.jpg);
+	background-size: 100%;
+}
+.menu{
+	width: 100%;
+	height: 1rem;
+	background-color: white;
+	display: flex;
+	overflow: hidden;
+	overflow-x: auto;
+}
+.menu_text{
+	font-size: 0.4rem;
+	height: 0.96rem;
+    
+}
+.menu_text1{
+	font-size: 0.4rem;
+	height: 0.96rem;
+    
+}
+.menu_text:hover{
+	color: red;
+	border-bottom: 0.04rem solid red;
+}
+.menu_text1:hover{
+	color: red;
+	border-bottom: 0.04rem solid red;
+}
+.menu::-webkit-scrollbar{
+            	display: none;
+            }
+.menu_text span{
+	display: inline-block;
+	width: 1rem;
+	margin: 0.25rem;
+}
+.menu_text1 span{
+	display: inline-block;
+	width: 2rem;
+	margin: 0.25rem;
+}
+
+
+.main_vedio{
+	width: 7.2rem;
+	height: 5.8rem;
+	background-color:white;
+	margin: 0 auto;
+	position: relative;
+}
+.main_vedio_show{
+	width: 6.8rem;
+	height: 4rem;
+	
+	position: absolute;
+	top: 0.2rem;
+	left: 0.2rem;
+	overflow: hidden;
+	border-radius: 15px;
+}
+.main_vedio_show video{
+	height:100%;
+}
+.main_vedio_title{
+	width: 6.8rem;
+	height: 1.4rem;
+	
+	position: absolute;
+	top: 4.3rem;
+	left: 0.2rem;
+	
+	
+}
+.main_vedio_title span{
+	font-size: 0.3rem;
+	height: 0.5rem;
+	display: flex;
+	
+}
+
+.main_vedio_title2{
+	width: 6.8rem;
+	height: 0.8rem;
+	border-top: 1px solid gainsboro;
+	display: flex;
+	position: relative;
+}
+.main_vedio_title2_touxiang{
+	width: 0.6rem;
+	height: 0.6rem;
+	border-radius: 50px;
+	background: url(../img/歌单19.jpg);
+	background-size: 100%;
+	left: 0;
+	top: 0.1rem;
+	
+}
+.main_vedio_title2_touxiang1{
+	width: 0.6rem;
+	height: 0.6rem;
+	border-radius: 50px;
+	background: url(../img/歌单18.jpg);
+	background-size: 100%;
+	left: 0;
+	top: 0.1rem;
+	
+}
+.main_vedio_title2_touxiang2{
+	width: 0.6rem;
+	height: 0.6rem;
+	border-radius: 50px;
+	background: url(../img/歌单20.jpg);
+	background-size: 100%;
+	left: 0;
+	top: 0.1rem;
+	
+}
+.main_vedio_title2_touxiang3{
+	width: 0.6rem;
+	height: 0.6rem;
+	border-radius: 50px;
+	background: url(../img/歌单27.jpg);
+	background-size: 100%;
+	left: 0;
+	top: 0.1rem;
+	
+}
+.main_vedio_title2_touxiang4{
+	width: 0.6rem;
+	height: 0.6rem;
+	border-radius: 50px;
+	background: url(../img/歌单26.jpg);
+	background-size: 100%;
+	left: 0;
+	top: 0.1rem;
+	
+}
+.main_vedio_title2_yonghu{
+	width: 3rem;
+	height: 0.6rem;
+	font-size: 1rem;
+	position: absolute;
+	left: 0;
+	top: 0.1rem;
+	display: flex;
+}
+.main_vedio_title2_yonghu span{
+	margin: 0.2rem 0;
+}
+.main_vedio_title2_pinglun{
+	width: 1.5rem;
+	height: 0.6rem;
+	font-size: 1.5rem;
+	color:dimgray;
+	position: absolute;
+	right: 0;
+	top: 0.2rem;
+	display: flex;
+	
+}
+.main_vedio_title2_pinglun i{
+	font-size: 0.4rem;
+}
+.line{
+	width: 100%;
+	height: 0.2rem;
+	background-color: #F5F5F5;
+}
+.dibu{
+	width: 100%;
+	height: 60px;
+	background-color: #F5F5F5;
+}
+.wyy_bottom{
+	position: fixed;
+	bottom: -0.2rem;
+	height: 60px;
+	width: 100%;
+	z-index: 100;
+	background-color: #fff;
+	box-shadow: 0 3px 15px 3px rgba(0,0,0,.12);
+}
+.wyy_bottom_fix{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 60px;
+	margin-left: -28px;
+}
+.wyy_bottom_fix_div{
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+	width: 100px;
+	height: 60px;
+	/* background-color: #ffaa00; */
+}
+.wyy_bottom_fix_div_a{
+	display: block;
+	text-decoration: none;
+	color: #797979;
+}
+.wyy_bottom_fix_tu1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: .5rem;
+	border-radius: .4rem;
+	margin: .1rem 0 0 .95rem;
+	color: #fff;
+	background-color: red;
+}
+.wyy_bottom_fix_tu{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: .5rem;
+	border-radius: .4rem;
+	margin: .1rem 0 0 .95rem;
+	/* background-color: red; */
+	color: #797979;
+}
+.wyy_bottom_fix_wz{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: .5rem;
+	font-size: .2rem;
+	margin-left: .95rem;
+	/* color: red; */
+	/* background-color: green; */
+}
+.wyy_bottom_fix_div:hover > .wyy_bottom_fix_wz{
+	color: red;
+}
+.wyy_bottom_fix_div:hover > .wyy_bottom_fix_tu{
+	color: #fff;
+	background-color: red;
+}
