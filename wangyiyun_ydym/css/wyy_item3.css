@@ -384,8 +384,12 @@ a{
 	position: absolute;
 	top: 5rem;
 	width: 7.2rem;
-	height: 1.4rem;
-	overflow: auto;
+	height: 1.6rem;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+.wyy2_body_part2_body2::-webkit-scrollbar{
+	list-style: none;
 }
 .wyy2_body_part2_body2_box{
 	display: flex;

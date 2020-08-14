@@ -149,6 +149,7 @@ a{
 .id_text_title{
 	width: 7.2rem;
 	height: 0.5rem;
+	/* background-color: #fff; */
 	display: flex;
 	border: 1px solid #F5F5F5;
 }
@@ -165,6 +166,7 @@ a{
 .id_text_menu li{
 	width:7.2rem;
 	height: 0.8rem;
+	/* background-color: #fff; */
 	border: 1px solid #F5F5F5;
 	display: flex;
 	position: relative;
