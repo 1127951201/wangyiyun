@@ -198,12 +198,13 @@ a{
 .box_center2_long_wz h3:first-child{
 	display: block;
 	color: #fff;
+	margin-top: -1rem;
 	position: absolute;
 	font-size: .45rem;
 }
 .box_center2_long_wz h5:last-child{
 	position: absolute;
 	color: #d1d1d1;
-	margin-top: .8rem;
+	margin-top: -0.2rem;
 	font-size: .3rem;
 }
