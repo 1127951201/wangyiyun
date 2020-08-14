@@ -110,11 +110,18 @@ a{
 }
 
 
-.main_vedio{
+.main_vedio1{
 	width: 7.2rem;
 	height: 5.8rem;
 	background-color:white;
 	margin: 2rem auto 0;
+	position: relative;
+}
+.main_vedio{
+	width: 7.2rem;
+	height: 5.8rem;
+	background-color:white;
+	margin: 0 auto 0;
 	position: relative;
 }
 .main_vedio_show{

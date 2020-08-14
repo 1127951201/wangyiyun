@@ -8,9 +8,15 @@ a{
 	text-decoration: none;
 }
 .head{
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	background-color: #fff;
 	display: flex;
+	width: 7.2rem;
+	height: 1.2rem;
 	justify-content: space-around;
-	margin-top: .1rem;
+	/* margin-top: .1rem; */
 }
 .word1{
 	font-size: .3rem;
@@ -27,13 +33,15 @@ a{
 	justify-content: center;
 	align-items: center;
 	width: 7.2rem;
-	height: .5rem;
+	height: .8rem;
 	border-radius: 0.3rem;
 	background-color: #f2f2f2;
-	position: absolute;
+	position: fixed;
+	color: #fff;
+	z-index: 10;
 	clear: both;
 	display: flex;
-	top: 1.3rem;
+	top: 1.2rem;
 }
 .text{
 	font-size: .3rem;
